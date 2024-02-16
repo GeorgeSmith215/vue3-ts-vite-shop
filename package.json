@@ -11,9 +11,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "vue": "^3.4.15"
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@types/node": "^20.11.18",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@vitejs/plugin-vue": "^5.0.3",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
@@ -25,6 +28,7 @@
     "eslint-plugin-vue": "^9.21.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
+    "sass": "^1.70.0",
     "typescript": "^5.3.3",
     "vite": "^5.1.0",
     "vite-plugin-eslint": "^1.8.1",
