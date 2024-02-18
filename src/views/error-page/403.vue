@@ -1,5 +1,5 @@
 <template>
-  <el-icon><Bell /></el-icon>
+  <h1>403 未授权.</h1>
 </template>
 
 <script lang="ts" setup></script>

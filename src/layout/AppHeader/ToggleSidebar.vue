@@ -1,8 +1,11 @@
 <template>
-  <i
-    :class="collapseIcon"
+  <el-icon
     @click="handleCollapse"
-  />
+  >
+    <component
+      :is="collapseIcon"
+    />
+  </el-icon>
 </template>
 
 <script lang="ts" setup>
@@ -12,7 +15,7 @@ import { computed } from 'vue'
 const store = useStore()
 
 const collapseIcon = computed(() => {
-  return 'el-icon-s-fold'
+  return !store.state.isCollapse ? 'Aim' : 'View'
 })
 
 const handleCollapse = () => {

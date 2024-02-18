@@ -1,5 +1,5 @@
 <template>
-  <el-icon><Bell /></el-icon>
+  <h1>商品规格</h1>
 </template>
 
 <script lang="ts" setup></script>
