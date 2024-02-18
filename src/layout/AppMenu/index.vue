@@ -9,43 +9,43 @@
     :collapse="$store.state.isCollapse"
     router
   >
-    <el-menu-item index="/">
+    <el-menu-item index="/admin/home">
       <i class="el-icon-menu" />
       <template #title>
         首页
       </template>
     </el-menu-item>
-    <el-submenu index="1">
+    <el-sub-menu index="/admin/product">
       <template #title>
         <i class="el-icon-location" />
         <span>商品</span>
       </template>
-      <el-menu-item index="/product/product_list">
+      <el-menu-item index="/admin/product/product_list">
         <i class="el-icon-menu" />
         <template #title>
           商品列表
         </template>
       </el-menu-item>
-      <el-menu-item index="/product/product_classify">
+      <el-menu-item index="/admin/product/product_classify">
         <i class="el-icon-menu" />
         <template #title>
           商品分类
         </template>
       </el-menu-item>
-      <el-menu-item index="/product/product_attr">
+      <el-menu-item index="/admin/product/product_attr">
         <i class="el-icon-menu" />
         <template #title>
           商品规格
         </template>
       </el-menu-item>
-      <el-menu-item index="/product/product_reply">
+      <el-menu-item index="/admin/product/product_reply">
         <i class="el-icon-menu" />
         <template #title>
           商品评论
         </template>
       </el-menu-item>
-    </el-submenu>
-    <el-submenu index="2">
+    </el-sub-menu>
+    <el-sub-menu index="2">
       <template #title>
         <i class="el-icon-location" />
         <span>订单</span>
@@ -62,19 +62,19 @@
           收银订单
         </template>
       </el-menu-item>
-    </el-submenu>
-    <el-submenu index="3">
+    </el-sub-menu>
+    <el-sub-menu index="3">
       <template #title>
         <i class="el-icon-location" />
         <span>营销</span>
       </template>
-    </el-submenu>
-    <el-submenu index="4">
+    </el-sub-menu>
+    <el-sub-menu index="4">
       <template #title>
         <i class="el-icon-location" />
         <span>设置</span>
       </template>
-      <el-submenu index="/setting/permission">
+      <el-sub-menu index="/setting/permission">
         <template #title>
           <i class="el-icon-location" />
           <span>权限管理</span>
@@ -97,14 +97,14 @@
             规则
           </template>
         </el-menu-item>
-      </el-submenu>
-    </el-submenu>
-    <el-submenu index="5">
+      </el-sub-menu>
+    </el-sub-menu>
+    <el-sub-menu index="5">
       <template #title>
         <i class="el-icon-location" />
         <span>维护</span>
       </template>
-    </el-submenu>
+    </el-sub-menu>
   </el-menu>
 </template>
 
